@@ -6,7 +6,8 @@
   * Bosh deployed vm in same network as PCF or services network.
 
 
-# Deploying a bosh vm : https://www.cloudfoundry.org/blog/create-lean-bosh-release/
+# Deploying a bosh vm
+* https://www.cloudfoundry.org/blog/create-lean-bosh-release/
 
 # Install required software on vm
 * sudo apt-get update
@@ -15,7 +16,7 @@
 * sudo apt install default-jdk
 * apt-get install redis-tools
 
-#Test redis connection from bosh deployed vms using redis cli
+# Test redis connection from bosh deployed vms using redis cli
 * Steps: https://help.compose.com/docs/redis-and-redis-cli
 
 # Create Service key for redis
