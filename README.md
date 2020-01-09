@@ -21,8 +21,8 @@
 * cf create-service-key <ondemand-redis> test-key
 * cf service-key <ondemand-redis> test-key
 ```
-arulv$cf service-key ond test
-Getting key test for service instance ond as admin...
+arulv$cf service-key redis-cache test
+Getting key test for service instance redis-cache as admin...
 
 {
  "host": "q-s0.redis-instance.service.service-instance-2ac6cdf1-45e9-9fc9-6eb920854370.bosh",
