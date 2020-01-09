@@ -37,13 +37,14 @@ Getting key test for service instance ond as admin...
 
 # Compile and run spring boot app
 * Download the app to bosh vm and edit src/main/resources/application.yml to use redis vm ip and service key
+* On demand redis vm ip can be fetched from bosh vms output
 ```
 spring:
   application:
     name: sample-spring-redis
   redis:
     host: 192.168.X.XX
-    password: 4B0D10QndcBNEsxx3nFZaBiXOubARZE
+    password: F5cSTGESpFSbppK6GaR4oYtwk
   server:
     port: 16397
 
