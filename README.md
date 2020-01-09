@@ -28,8 +28,8 @@ arulv$cf service-key ond test
 Getting key test for service instance ond as admin...
 
 {
- "host": "q-s0.redis-instance.service.service-instance-2ac6cdf1-348d-45e9-9fc9-6eb920854370.bosh",
- "password": "F5cSTGESpFSbppK6iZ73PGaR4oYtwk",
+ "host": "q-s0.redis-instance.service.service-instance-2ac6cdf1-45e9-9fc9-6eb920854370.bosh",
+ "password": "F5cSTGESpFSbppK6GaR4oYtwk",
  "port": 6379,
  "tls_port": 16379
 }
