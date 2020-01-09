@@ -17,10 +17,7 @@
 * sudo apt install default-jdk
 * apt-get install redis-tools
 
-# Test redis connection from bosh deployed vms using redis cli
-* Steps: https://help.compose.com/docs/redis-and-redis-cli
-
-# Create Service key for redis
+# Create Service key for redis from cf cli
 * cf create-service-key <ondemand-redis> test-key
 * cf service-key <ondemand-redis> test-key
 ```
@@ -34,6 +31,9 @@ Getting key test for service instance ond as admin...
  "tls_port": 16379
 }
 ```
+
+# Test redis connection from bosh deployed vms using redis cli
+* Steps: https://help.compose.com/docs/redis-and-redis-cli
 
 # Compile and run spring boot app
 * Download the app to bosh vm and edit src/main/resources/application.yml to use redis vm ip and service key
