@@ -1,5 +1,6 @@
 # redis-spring-app
-  This guide is designed to test redis service hosted on pivotal cloud foundry using an app hosted outside the platform. This is simple app that connects to a redis service and display a Hello from Redis! message
+  This guide is designed to test redis service hosted on pivotal cloud foundry using an app hosted outside the platform. Simple spring boot app that connects to a redis service and display a Hello from Redis! message
+  * https://spring.io/guides/gs/messaging-redis/
 
 # Requirments
   * Pivotal cloud foundry installed with redis
