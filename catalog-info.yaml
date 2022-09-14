@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: redis-spring-app
+  annotations:
+    github.com/project-slug: arulvannala/redis-spring-app
+spec:
+  type: other
+  lifecycle: unknown
+  owner: default
